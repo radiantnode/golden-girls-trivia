@@ -1,7 +1,10 @@
 (function () {
   "use strict";
 
-  var QUESTIONS_PER_GAME = 10;
+  // Use the entire question bank each game (ordered easy -> hard). Defined
+  // from the bank size so the start-screen count and progress stay accurate
+  // automatically as questions are added.
+  var QUESTIONS_PER_GAME = window.GG_QUESTIONS.length;
   var LETTERS = ["A", "B", "C", "D"];
 
   var state = {
