@@ -39,12 +39,7 @@ jobs:
       # This only touches the deployed copy, so opening index.html locally
       # (plain filenames, no query string) still works.
       - name: Cache-bust asset URLs
-        run: |
-          sed -i \
-            -e "s|href=\"styles.css\"|href=\"styles.css?v=${GITHUB_SHA}\"|" \
-            -e "s|src=\"questions.js\"|src=\"questions.js?v=${GITHUB_SHA}\"|" \
-            -e "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_SHA}\"|" \
-            index.html
+        run: bash .github/cache-bust.sh
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
