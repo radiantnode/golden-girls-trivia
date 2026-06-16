@@ -129,7 +129,7 @@
 
     var feedback = document.getElementById("feedback");
     feedback.innerHTML =
-      '<div class="explanation">' + verdict + current.episode + '</div>' +
+      '<div class="explanation ' + (isCorrect ? 'good' : 'bad') + '">' + verdict + current.episode + '</div>' +
       '<div class="next-row">' +
         '<button class="btn" id="next-btn">' +
           (isLast ? 'See Results &#127881;' : 'Next Question &#8594;') +

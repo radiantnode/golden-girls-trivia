@@ -240,6 +240,20 @@ body {
 }
 .explanation strong { color: #c23b78; }
 
+/* Correct answer: green to match the highlighted option. */
+.explanation.good {
+  background: #e7f7ee;
+  border-left-color: var(--green-correct);
+}
+.explanation.good strong { color: var(--green-correct); }
+
+/* Wrong answer: red to match the highlighted option. */
+.explanation.bad {
+  background: #fdeae9;
+  border-left-color: var(--red-wrong);
+}
+.explanation.bad strong { color: var(--red-wrong); }
+
 @keyframes pop {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
