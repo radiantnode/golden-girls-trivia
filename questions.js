@@ -155,11 +155,11 @@ window.GG_QUESTIONS = [
 
   // ---------- DEEP CUTS ----------
   {
-    q: "What musical instrument does Sophia claim she once played, and what was Dorothy's father's name?",
-    options: ["Sal Petrillo was Dorothy's father", "Guido was Dorothy's father", "Angelo was Dorothy's father", "Vito was Dorothy's father"],
+    q: "What was the name of Dorothy's father, Sophia's late husband?",
+    options: ["Sal Petrillo", "Guido Petrillo", "Vito Petrillo", "Angelo Petrillo"],
     answer: 0,
     difficulty: 2,
-    episode: "Salvadore 'Sal' Petrillo was Sophia's husband and Dorothy's father; Angelo is Sophia's brother."
+    episode: "Salvadore 'Sal' Petrillo was Sophia's husband and Dorothy's father. (Angelo is Sophia's brother.)"
   },
   {
     q: "In the series finale, Dorothy marries whom and moves away?",
