@@ -188,5 +188,157 @@ window.GG_QUESTIONS = [
     answer: 0,
     difficulty: 3,
     episode: "S7E25 'Henny Penny — Straight, No Chaser': the girls dress as barnyard animals to perform the Chicken Little (Henny Penny) story for Dorothy's students."
+  },
+
+  // ===================================================================
+  // EXPANSION SET — escalating difficulty (easy warm-ups → deep cuts)
+  // ===================================================================
+
+  // ---------- Easier warm-ups (difficulty 1) ----------
+  {
+    q: "What color is the house the girls live in, and on what Miami street is it located?",
+    options: ["Richmond Street", "Ocean Drive", "Collins Avenue", "Biscayne Boulevard"],
+    answer: 0,
+    difficulty: 1,
+    episode: "The girls live at 6151 Richmond Street, Miami (an address seen on mail and in dialogue across the series)."
+  },
+  {
+    q: "Which girl is famous for her many romantic escapades and Southern belle persona?",
+    options: ["Blanche", "Rose", "Dorothy", "Sophia"],
+    answer: 0,
+    difficulty: 1,
+    episode: "Blanche Devereaux, the Southern belle from Atlanta, is defined by her active romantic life."
+  },
+  {
+    q: "What is the theme song of The Golden Girls?",
+    options: ["“Thank You for Being a Friend”", "“That's What Friends Are For”", "“Golden Days”", "“Miami Nights”"],
+    answer: 0,
+    difficulty: 1,
+    episode: "The theme is Andrew Gold's “Thank You for Being a Friend,” performed for the show by Cynthia Fee."
+  },
+
+  // ---------- Medium (difficulty 2) ----------
+  {
+    q: "What running gag involves the contents of Sophia's wicker handbag?",
+    options: ["She always carries it on her arm everywhere", "It is full of cash", "It contains a gun", "It is empty"],
+    answer: 0,
+    difficulty: 2,
+    episode: "Sophia carries her woven straw/wicker purse on her arm in nearly every scene, a signature visual gag."
+  },
+  {
+    q: "Rose works at a grief counseling center in later seasons. Before that, what was her job?",
+    options: ["Assistant at a consumer-help TV show / counselor", "Schoolteacher", "Waitress", "Florist"],
+    answer: 0,
+    difficulty: 2,
+    episode: "Rose holds several jobs, including at WSSB-TV's consumer-affairs show 'The Wake Up Miami' and later as a grief counselor."
+  },
+  {
+    q: "What is the name of Dorothy and Stan's daughter?",
+    options: ["Kate", "Karen", "Kirsten", "Kelly"],
+    answer: 0,
+    difficulty: 2,
+    episode: "Dorothy and Stan's daughter is Kate (Kate Zbornak), seen most notably in the wedding episode 'My Brother, My Father'-era continuity."
+  },
+  {
+    q: "In 'The Competition,' the girls split into pairs for what tournament?",
+    options: ["Bowling", "Tennis", "Bridge", "Shuffleboard"],
+    answer: 0,
+    difficulty: 2,
+    episode: "S1E07 'The Competition': Dorothy and Rose team up for a bowling tournament against Blanche and Sophia, surfacing old rivalries."
+  },
+  {
+    q: "What does Stan typically say as his catchphrase when he shows up at the door?",
+    options: ["“Hi, Dorothy. It's me, Stanley.”", "“Honey, I'm home!”", "“Surprise!”", "“Did you miss me?”"],
+    answer: 0,
+    difficulty: 2,
+    episode: "Stan's recurring greeting to his ex-wife is the sheepish “Hi, Dorothy. It's me, Stanley.”"
+  },
+
+  // ---------- Harder (difficulty 3) ----------
+  {
+    q: "In the two-part 'Sick and Tired,' Dorothy is finally diagnosed with what illness after doctors dismissed her?",
+    options: ["Chronic Fatigue Syndrome", "Lupus", "Lyme disease", "Fibromyalgia"],
+    answer: 0,
+    difficulty: 3,
+    episode: "S5E1–2 'Sick and Tired': after being condescended to by doctors, Dorothy is diagnosed with Chronic Fatigue Syndrome — a landmark TV storyline."
+  },
+  {
+    q: "What is the name of the famous St. Olaf cow that could supposedly count?",
+    options: ["Count Bessie", "Sir Moos-a-lot", "Lady Bovine", "Olga"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Count Bessie is the legendary 'counting cow' of St. Olaf in one of Rose's tall tales."
+  },
+  {
+    q: "In 'Valentine's Day,' the girls reminisce; one story involves a nudist getaway. Whose date was it?",
+    options: ["Blanche and Dorothy at a couples retreat", "Rose and a salesman", "Sophia and a widower", "All four on a cruise"],
+    answer: 0,
+    difficulty: 3,
+    episode: "S5E12 'Valentine's Day': a flashback features Blanche and Dorothy unwittingly ending up at a nudist hotel with their dates."
+  },
+  {
+    q: "What was the original title under which the pilot was developed before becoming 'The Golden Girls'?",
+    options: ["It started from an NBC promo sketch with 'Miami Nice'", "“Four Friends”", "“Sunshine Cadets”", "“The Lanai”"],
+    answer: 0,
+    difficulty: 3,
+    episode: "The concept was famously sparked by an NBC promo skit dubbed 'Miami Nice,' which led to the series' development."
+  },
+  {
+    q: "Which guest-starring legend played Sophia's sister Angela in multiple episodes?",
+    options: ["Nancy Walker", "Bea Arthur's stand-in", "Betty White's sister", "Rue's aunt"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Veteran actress Nancy Walker played Sophia's bickering sister Angela in several appearances."
+  },
+  {
+    q: "In 'Old Friends,' Sophia befriends an elderly man, then loses him to what condition?",
+    options: ["Alzheimer's disease", "A heart attack", "A stroke", "Cancer"],
+    answer: 0,
+    difficulty: 3,
+    episode: "S3E01 'Old Friends': Sophia bonds with Alvin, a kindly man whose worsening Alzheimer's leads to a heartbreaking goodbye."
+  },
+  {
+    q: "What is the name of the teddy bear at the center of the 'Old Friends' subplot, held hostage by a Sunshine Cadet?",
+    options: ["Fernando", "Mr. Snuggles", "Baby Bear", "Wuzzy"],
+    answer: 0,
+    difficulty: 3,
+    episode: "S3E01 'Old Friends': Blanche's late husband's teddy bear, Fernando, is ransomed piece-by-piece by a tough little Sunshine Cadet, Daisy."
+  },
+
+  // ---------- Deepest cuts (difficulty 3, expert tier) ----------
+  {
+    q: "Estelle Getty (Sophia) was actually how old relative to Bea Arthur (Dorothy), who played her daughter?",
+    options: ["Getty was about a year younger than Arthur", "Getty was 20 years older", "They were the same age", "Getty was 10 years older"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Estelle Getty (b. 1923) was roughly a year YOUNGER than Bea Arthur (b. 1922), despite playing her mother — requiring heavy old-age makeup."
+  },
+  {
+    q: "Sophia Petrillo is unique among the characters for appearing across how many connected TV series?",
+    options: ["Three (The Golden Girls, Empty Nest, The Golden Palace)", "Two", "One", "Four"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Sophia is the only Golden Girls character to appear in all three connected series: The Golden Girls, the spin-off The Golden Palace, and the sister sitcom Empty Nest."
+  },
+  {
+    q: "In 'Dorothy's New Friend,' Dorothy is dazzled by a snobbish writer who looks down on Blanche and Rose. What is the writer's name?",
+    options: ["Barbara Thorndyke", "Glen O'Brien", "Margaret Spencer", "Eleanor Vance"],
+    answer: 0,
+    difficulty: 3,
+    episode: "S2E08 'Dorothy's New Friend': Dorothy befriends pretentious author Barbara Thorndyke, whose elitism (and a snubbing of the other girls) causes a rift."
+  },
+  {
+    q: "What is Blanche's maiden name?",
+    options: ["Hollingsworth", "Devereaux", "Bouvier", "Petrillo"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Blanche's maiden name is Hollingsworth — she is the daughter of the larger-than-life 'Big Daddy' Hollingsworth of the South. (Devereaux is her married name.)"
+  },
+  {
+    q: "What is the name of Rose's late husband from St. Olaf, frequently mentioned in her stories?",
+    options: ["Charlie", "Gunther", "Lars", "Sven"],
+    answer: 0,
+    difficulty: 3,
+    episode: "Rose's beloved late husband was Charlie Nylund; his memory (and their happy marriage) recurs throughout the series."
   }
 ];

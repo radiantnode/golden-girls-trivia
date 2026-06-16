@@ -44,7 +44,13 @@
   function buildDeck() {
     var pool = shuffle(window.GG_QUESTIONS);
     var count = Math.min(QUESTIONS_PER_GAME, pool.length);
-    return pool.slice(0, count).map(prepareQuestion);
+    // Pick a random set, then order easy -> hard so the game ramps up in
+    // difficulty. Questions are shuffled first, so ties within a difficulty
+    // tier still vary between playthroughs.
+    return pool
+      .slice(0, count)
+      .sort(function (a, b) { return a.difficulty - b.difficulty; })
+      .map(prepareQuestion);
   }
 
   function difficultyLabel(d) {
